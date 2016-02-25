@@ -1,0 +1,55 @@
+[
+    {
+        "name": "longman/telegram-bot",
+        "version": "0.27.0",
+        "version_normalized": "0.27.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/akalongman/php-telegram-bot.git",
+            "reference": "f11c153c590df266e7d528230dd82b30573c1c61"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/akalongman/php-telegram-bot/zipball/f11c153c590df266e7d528230dd82b30573c1c61",
+            "reference": "f11c153c590df266e7d528230dd82b30573c1c61",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-pdo": "*",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "phpspec/phpspec": "~2.1",
+            "phpunit/phpunit": "~4.1",
+            "squizlabs/php_codesniffer": "~2.3"
+        },
+        "time": "2016-01-24 16:39:39",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Longman\\TelegramBot\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Avtandil Kikabidze aka LONGMAN",
+                "email": "akalongman@gmail.com",
+                "homepage": "http://longman.me",
+                "role": "Developer"
+            }
+        ],
+        "description": "PHP telegram bot",
+        "homepage": "https://github.com/akalongman/php-telegram-bot",
+        "keywords": [
+            "api",
+            "bot",
+            "telegram"
+        ]
+    }
+]
