@@ -2,11 +2,10 @@
 
 $token = 'token';
 $botName = 'bot-name';
-$chatId = 'chat-id';
+$grupTitle = 'grup-title';
 
-$messageInfo = "Arayan Numara: {arayanNumara} Aranan Numara: {arananNumara} ";
+$messageInfo = "<b>Arayan Numara:</b> {arayanNumara} <b>Aranan Numara:</b> {arananNumara} ";
 $messageType = [
-    "call_init" => "Arama türü: Gelen arama ",
-    "call_hangup" => "Arama türü: Giden arama "
+    "call_init" => "<b>Arama türü:</b> Gelen arama ",
+    "call_hangup" => "<b>Arama türü:</b> Giden arama "
 ];
-
